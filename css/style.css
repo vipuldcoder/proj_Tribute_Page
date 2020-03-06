@@ -4,27 +4,41 @@
 }
 
 body {
-    background-color: burlywood;
+    background-color: #ffffff;
+    font-family: 'Spartan', sans-serif;
+}
+
+header {
+    margin: 0;
+
+}
+
+#header {
+    padding: 60px 0;
+    box-shadow: 2px 4px 6px #EEE;
+}
+
+#header h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
 }
 
 #title {
     text-align: center;
-    font-family: 'Lobster', sans-serif;
 }
 
 #title-tag {
     justify-content: space-between;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #img-div {
     width: 100%;
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 img {
-    width: 60%;
+    width: 40%;
     max-width: 1000px;
     display: block;
     margin: 20px auto;
@@ -32,10 +46,69 @@ img {
 
 #img-caption {
     text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    color: #ffcccc;
+
+}
+
+.tribute-div {
+    width: 60%;
+    margin: 70px auto;
+    
+
+}
+
+.tribute-div ul * {
+    margin-bottom: 20px;
+
+       
+}
+
+.tribute-div ul li p {
+    margin-top: -10px;
+
 }
 
 #tribute-info {
     text-align: center;
-    font-style: italic;
+    padding-bottom: 30px;
+
 }
+
+footer {
+    background-color: #333;
+    color: #EEE;
+    padding: 30px;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+footer a {
+color: #ffcccc;
+text-decoration: none;
+
+}
+
+footer a:hover {
+    color: #ccffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
