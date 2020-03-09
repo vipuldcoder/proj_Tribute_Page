@@ -69,6 +69,10 @@ hr {
        
 }
 
+.tribute-div li {
+    list-style-type: none;       
+}    
+
 .tribute-div ul li p {
     margin-top: -10px;
 
